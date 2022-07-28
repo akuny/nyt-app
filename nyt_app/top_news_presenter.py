@@ -1,4 +1,3 @@
-import math
 from top_news_list import TopNewsList
 
 
