@@ -4,9 +4,9 @@ from top_news.presenter import TopNewsPresenter
 from days_headlines.gateway import DaysHeadlinesGateway
 from days_headlines.presenter import DaysHeadlinesPresenter
 
+
 class ProdContext(ApplicationContext):
     def get_top_news_gateway(self):
-        print('foo')
         return TopNewsGateway()
 
     def get_top_news_presenter(self):

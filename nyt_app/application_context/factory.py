@@ -4,6 +4,8 @@ from .test import TestContext
 
 
 class ApplicationContextFactory:
+
+    @staticmethod
     def make(type) -> ApplicationContext:
         if type == "prod":
             return ProdContext()
