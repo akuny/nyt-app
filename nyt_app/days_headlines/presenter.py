@@ -1,10 +1,7 @@
 class DaysHeadlinesPresenter:
 
-    def __init__(self, news_list):
-        self.news_list = news_list
-
-    def show(self):
-        for doc in self.news_list.contents:
+    def show(self, news_list):
+        for doc in news_list:
             print('')
             print(doc['headline']['main'])
             print(doc['web_url'])

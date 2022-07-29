@@ -1,10 +1,7 @@
 class TopNewsPresenter:
 
-    def __init__(self, news_list):
-        self.news_list = news_list
-
-    def show(self):
-        for article in self.news_list.contents:
+    def show(self, news_list):
+        for article in news_list:
             print('')
             print(article['title'])
             print(article['url'])
