@@ -1,6 +1,6 @@
 import sys
-from command_factory import CommandFactory
-from command_bus import CommandBus
+from command.command_factory import CommandFactory
+from command.command_bus import CommandBus
 from application_context.factory import ApplicationContextFactory
 
 

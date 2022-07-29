@@ -1,4 +1,4 @@
-from command import Command
+from .command import Command
 from application_context.application_context import ApplicationContext
 from top_news.get_top_news import GetTopNews
 from days_headlines.get_days_headlines import GetDaysHeadlines

@@ -1,5 +1,5 @@
 from typing import List
-from command import Command
+from .command import Command
 
 
 class CommandFactory:
