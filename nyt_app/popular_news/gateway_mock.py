@@ -1,4 +1,4 @@
-class MockTopNewsGateway:
+class MockPopularNewsGateway:
 
     def fetch():
         pass

@@ -1,4 +1,4 @@
-class TopNewsPresenter:
+class SectionPresenter:
 
     def show(self, news_list):
         for article in news_list:

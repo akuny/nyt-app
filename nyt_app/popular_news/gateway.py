@@ -2,7 +2,7 @@ from api_gateway import ApiGateway
 import requests
 
 
-class TopNewsGateway(ApiGateway):
+class PopularNewsGateway(ApiGateway):
 
     def fetch(self, interval):
         url = f'https://api.nytimes.com/svc/mostpopular/v2/viewed/{self.parse_interval(interval)}.json?api-key={self.key}'
